@@ -1,0 +1,37 @@
+/*
+    comentário css
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+    color: white;
+}
+
+body, input, button, textarea{
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#logo{
+    animation-delay: 100ms;
+}
+.location{
+    animation-delay: 150ms;
+}
+main h1{
+    animation-delay:250ms;
+}
+.visit p {
+    animation-delay:300ms;
+}
+.visit a{
+    animation-delay:400ms;
+}

@@ -1,0 +1,35 @@
+
+#page-landing{
+
+    background: linear-gradient(329.54deg, #3addfd 0%, #009da8 100%) no-repeat;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+#container{
+    margin: auto;
+}    
+
+.location, h1, .visit p{
+    
+    height: 16vh;
+
+}
+
+.visit a{
+    width: 60px;
+    height: 60px;
+    background: #ffd666;
+    border: none;
+    border-radius: 20px;
+    display:flex;
+    justify-content:center;
+    margin: auto;
+    transition: background 300ms;
+}
+
+.visit a:hover {
+    background: #00ffff;
+
+}
